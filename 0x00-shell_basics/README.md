@@ -13,3 +13,4 @@ and hidden files
 
 mkdir - makes a directory
 
+mv - move files
