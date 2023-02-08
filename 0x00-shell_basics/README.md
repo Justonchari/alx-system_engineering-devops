@@ -14,3 +14,5 @@ and hidden files
 mkdir - makes a directory
 
 mv - move files
+
+rm - remove files
