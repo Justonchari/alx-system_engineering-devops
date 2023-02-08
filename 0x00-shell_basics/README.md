@@ -11,3 +11,5 @@ ls -la - display current directory contents, including hidden files
 ls -na - display current directory contents, long format, with user and group IDs displayed numerically
 and hidden files 
 
+mkdir - makes a directory
+
