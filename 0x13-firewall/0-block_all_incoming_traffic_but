@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Configures firewall
+
+sudo apt-get -y update
+sudo apt-get install ufw
+sudo ufw disable
+sudo service ufw stop
+sudo ufw reset
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw enable
+sudo service ufw start
